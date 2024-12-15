@@ -14,6 +14,12 @@
   }
 }
 
+/* Стили для кнопок в стиле GitHub */
+.btn-github {
+  @apply bg-gray-900 text-white font-semibold px-6 py-2 rounded-md hover:bg-gray-800 transition-all;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
