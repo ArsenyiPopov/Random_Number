@@ -36,7 +36,7 @@ export default function Home() {
             {randomNumber !== null ? randomNumber : "Loading..."}
           </p>
           <button
-            className="btn-github mt-8"
+            className="bg-gray-900 text-white font-semibold px-6 py-2 rounded-md hover:bg-gray-800 transition-all mt-8"
             onClick={() => signOut()}
           >
             Logout
@@ -44,10 +44,10 @@ export default function Home() {
         </div>
       ) : (
         <div className="text-center">
-          <h1 className="text-3xl text-2xl font-semibold mb-4">Случайные числа</h1>
+          <h1 className="text-3xl font-semibold mb-4">Случайные числа</h1>
         
         <button
-          className="btn-github mt-4"
+          className="bg-gray-900 text-white font-semibold px-6 py-2 rounded-md hover:bg-gray-800 transition-all mt-4"
           onClick={() => signIn("github")}
         >
           Войти через GitHub
